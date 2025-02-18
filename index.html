@@ -12,6 +12,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- FOGLIO CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -89,7 +97,7 @@
           <button class="btn btn-primary">Aggiungi Libro</button>
         </div>
         <!-- TABELLA LIBRI -->
-        <table class="table">
+        <table class="table table-striped">
           <thead>
             <tr>
               <th>Titolo</th>
@@ -98,6 +106,36 @@
               <th>Azioni</th>
             </tr>
           </thead>
+          <tbody>
+            <!-- PILASTRI DELLA TERRA -->
+            <tr>
+              <td>I pilastri della terra</td>
+              <td>-</td>
+              <td><span class="badge bg-success">Disponibile</span></td>
+              <td>
+                <button class="btn btn-sm btn-outline-secondary">
+                  <i class="fa-solid fa-pencil"></i>
+                </button>
+                <button class="btn btn-sm btn-outline-secondary">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </td>
+            </tr>
+            <!-- I PROMESSI SPOSI -->
+            <tr>
+              <td>I promessi sposi</td>
+              <td>-</td>
+              <td><span class="badge bg-success">Disponibile</span></td>
+              <td>
+                <button class="btn btn-sm btn-outline-secondary">
+                  <i class="fa-solid fa-pencil"></i>
+                </button>
+                <button class="btn btn-sm btn-outline-secondary">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
         </table>
         <!-- COLONNA TODO FAQ -->
         <div class="row">
