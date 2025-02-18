@@ -5,3 +5,8 @@
 .nav-link.disabled {
   color: #888a8c !important;
 }
+
+img {
+  width: 50px;
+  height: 50px;
+}
